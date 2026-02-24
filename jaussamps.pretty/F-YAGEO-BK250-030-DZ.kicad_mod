@@ -1,0 +1,85 @@
+(footprint "F-YAGEO-BK250-030-DZ"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "BK250-030-DZ ")
+	(property "Reference" "REF**"
+		(at 0 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a1833d7b-b635-4b01-ac39-811a31b0e698")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FUSE_BK250-030_YAG"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f8c8355-3d9d-422d-ab1c-eaf0745b3875")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40020af4-68a5-4f5b-9f74-70b9fa45040e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9f9b6712-ff6b-4d85-9a00-f191e98dd6f3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.81 -2.54)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7c3a151c-87e9-41ba-91b7-dc0516e78ead")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 -1.27)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8e130566-ef1e-4268-b357-ae93a3d6b151")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 1.27)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b59990d-1198-45dd-9bcc-e1d2661ea8bf")
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,104 @@
+(footprint "D-LITEON-LTL-4233"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "810e371b-e667-4f07-9b8e-039ad04a994b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "D-LITEON-LTL-4233"
+		(at 1.27 3.498214 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32d944db-2e04-4445-9efe-7611518e9917")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9978dd39-0ad0-4665-98ab-d1adb21d9a06")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7a556885-0e65-4149-b8fd-874eab88d8c0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -2.5 -1.799998)
+		(end -2.5 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c0a33fe7-7c5c-431a-bc8d-43ad527c2436")
+	)
+	(fp_arc
+		(start -2.464467 -1.84835)
+		(mid 3.080438 0.030001)
+		(end -2.5 1.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bf28e5a9-8b26-4e5b-bacf-4ffb0abb1ad6")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.125)
+		(uuid "f6cb60e3-a730-4804-91a3-eb17a727af19")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf970dc9-9423-4f2f-add1-db646acb05ca")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Diode_THT.3dshapes/D_T-1_P2.54mm_Vertical_KathodeUp.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
